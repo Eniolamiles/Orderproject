@@ -1,0 +1,103 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500&family=Red+Hat+Display:wght@300&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500&family=Red+Hat+Display:wght@500&display=swap');
+
+
+.hero{
+    background-color: hsl(225, 100%, 94%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-section{
+    background-color: white;
+    /* border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px; */
+    border-radius: 20px;
+}
+.hero-content h2{
+    margin-top: 30px;
+    font-weight:600;
+    font-size: 30px;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.hero-content p{
+    font-size: 18px;
+    padding: 10px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: light;
+}
+.hero-img img{
+    width: 100%; 
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+ 
+   
+}
+.hero-plan{
+    background-color:  hsl(225, 100%, 98%);
+    margin: auto;
+    width: 80%;
+    height: 100px;
+    border-radius: 20px;
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1px;
+  
+}
+.hero-plan2{
+    color: rgb(32, 32, 213);
+}
+.hero-plan img{
+ margin-left: 20px;
+height: 60px;
+}
+.hero-plan h3{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.hero-plan a{
+    color: hsl(245, 96%, 48%);
+    margin-left: 10px;
+    margin-right: 20px;
+    
+
+}
+.btn{
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    height: 50px;
+    border-radius: 10px;
+    margin: auto;
+    width: 80%;
+    margin-top: 20px;
+    box-shadow: 0px 18px 30px -18px blue;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.hero-order{
+    margin-top: 20px;
+    padding-bottom: 10px;
+    font-weight: 600;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+@media screen and (min-width:1024px) {
+    .hero{
+        background: hsl(225, 100%, 98%) url('../assets/pattern-background-desktop.svg') no-repeat;
+        height: 200vh;
+      
+        
+    }
+    .hero-section{
+        margin:auto;
+        width: 40%;
+        margin-top: -300px;
+        
+
+
+    }
+}
